@@ -118,7 +118,7 @@ FOUNDATION_EXPORT NSString * const BDBOAuth1OAuthCallbackParameter;
 
 
 #pragma mark -
-@interface BDBOAuth1RequestSerializer : AFHTTPRequestSerializer
+@interface BDBOAuth1RequestSerializer : AFJSONRequestSerializer
 
 /**
  *  OAuth request token.
